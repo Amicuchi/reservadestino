@@ -57,22 +57,28 @@
 }
 
 input,
-select#formCountry,
-select#formCity{
+#formCountry,
+#formCity{
     line-height: 1.5rem;
-    height: 2rem;
     font-size: 1rem;
     width:16rem;
     border-radius: .5rem;
     padding-left: .5rem;
 }
 input{
+    height: 2rem;
     margin-top: 1rem;
 }
+#formCountry,
+#formCity{
+    height: 5rem;
+}
 
-label{
+label, 
+span{
     font-size: .8rem;
     color: white;
+    width: 16rem;
 }
 
 #btnSend,
@@ -89,8 +95,4 @@ label{
 #btnSend{
     font-weight: 700;
     font-size: 1.2rem;
-}
-
-.optionsNames{
-    color: #000;
 }

@@ -68,6 +68,7 @@ function Reservation() {
                         <br />
 
                         <select 
+                            multiple
                             id="formCountry" 
                             name="formCountry" 
                             value={selectedCountry} 
@@ -86,6 +87,7 @@ function Reservation() {
                         <label htmlFor="formCity">Cidade:</label>
                         <br />
                         <select 
+                            multiple
                             id="formCity" 
                             name="formCity" 
                             value={selectedCity} 
@@ -99,6 +101,11 @@ function Reservation() {
                                 </option>
                             ))}
                         </select>
+                        <br />
+                        <span>
+                            Para selecionar mais de uma cidade ou país, <br />
+                            segure a tecla CTRL.
+                        </span>
                         <br />
                     </div>
 
