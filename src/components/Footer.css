@@ -1,0 +1,13 @@
+footer{
+    height: 2rem;
+    align-items: center;
+    background-color: rgba(244, 248, 255, 0.2);
+}
+
+footer a,
+footer p{
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}

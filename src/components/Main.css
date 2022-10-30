@@ -1,0 +1,66 @@
+#advertisement{
+    background-color: darkkhaki;
+    background-image: url('../midia/maldivas.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.Video,
+.Video video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Video video{
+    object-fit: cover;
+    opacity: 1;
+}
+
+.container{
+    position: relative;
+    padding: 0 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.advertisement{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 700px;
+    position: relative;
+    display: initial;
+    transition: 0.5s ease-in-out;
+}
+
+.advertisement h2{
+    color: #fff;
+    font-size: 6em;
+    line-height: 1em;
+    font-weight: 700;
+    text-shadow: 0.5px 0.5px 1px #000;
+}
+
+.advertisement p{
+    color: #fff;
+    font-size: 18px;
+    margin: 20px 0;
+    text-shadow: 0.5px 0.5px 5px #000;
+}

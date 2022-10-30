@@ -1,0 +1,96 @@
+#sectionForm{
+    background-color: darkkhaki;
+    background-image: url('../midia/trip.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.containerReservation{
+    background-color: rgb(0, 0, 0, .3);
+    width: 70%;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+.titulo{
+    align-content: center;
+}
+.titulo h1{
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+.titulo h2{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.form{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#formPessoal,
+#formDestinos{
+    width: 25rem;
+    height: 20rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+    margin: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(0, 0, 0, .3);
+}
+
+#formPessoal h2,
+#formDestinos h2{
+    padding: 1rem;
+}
+
+input,
+select#formCountry,
+select#formCity{
+    line-height: 1.5rem;
+    height: 2rem;
+    font-size: 1rem;
+    width:16rem;
+    border-radius: .5rem;
+    padding-left: .5rem;
+}
+input{
+    margin-top: 1rem;
+}
+
+label{
+    font-size: .8rem;
+    color: white;
+}
+
+#btnSend,
+#btbPlus{
+    width: 10rem;
+    height: 2.5rem;
+    border-color: #3498db;
+    border: 1px solid rgb(150, 149, 149);
+    color: rgb(0, 0, 0);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#btnSend{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.optionsNames{
+    color: #000;
+}
